@@ -1,6 +1,10 @@
 # api-android-general_module
+A project containing handy functions for daily use.
 
-Add this in your root build.gradle at the end of repositories:
+<br />
+
+
+To use, add this in your root build.gradle at the end of repositories:
 
 ```html
 allprojects {
@@ -11,10 +15,42 @@ allprojects {
 }
 ```
 
-Then Add the dependency:
+Then add the dependency:
 
 ```html
 dependencies {
 	implementation 'com.github.tundeadetunji:api-android-general_module:2.2.4'
 }
 ```
+
+
+<br />
+For static imports (as required):
+<br />
+<br />
+<pre>
+import static com.inovationware.generalmodule.General.*;
+import static com.inovationware.generalmodule.Device.*;
+import static com.inovationware.generalmodule.Multimedia.*;
+</pre>
+
+To check if the device is connected to internet, for example:
+```java
+boolean isConnectedToInternet = thereIsInternet(getApplicationContext());
+```
+
+<h3>For non static imports:</h3>
+<pre>
+import com.inovationware.generalmodule.Feedback;
+</pre>
+
+To issue a toast, for example:
+```java
+private Feedback feedback = new Feedback(getApplicationContext());
+feedback.toast("toast message");
+```
+
+
+There's a lot of WIP, but it's only expanding, and will also tend toward optimization in future releases.
+
+For more, please check individual documentation.
