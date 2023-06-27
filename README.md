@@ -31,7 +31,6 @@ For static imports (as required):
 <pre>
 import static com.inovationware.generalmodule.General.*;
 import static com.inovationware.generalmodule.Device.*;
-import static com.inovationware.generalmodule.Multimedia.*;
 </pre>
 
 To check if the device is connected to internet, for example:
