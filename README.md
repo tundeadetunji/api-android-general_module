@@ -19,10 +19,10 @@ Then add the dependency:
 
 ```html
 dependencies {
-	implementation 'com.github.tundeadetunji:api-android-general_module:2.2.4'
+	implementation 'com.github.tundeadetunji:api-android-general_module:TAG'
 }
 ```
-
+Where TAG is the latest VCS release.
 
 <br />
 For static imports (as required):
