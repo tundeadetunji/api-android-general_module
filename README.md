@@ -1,4 +1,4 @@
-# api-android-general_module
+# General Module
 A project containing handy functions for daily use.
 
 <br />
