@@ -25,7 +25,7 @@ dependencies {
 Where TAG is the latest VCS release.
 
 <br />
-<h3>For static imports (as required):</h3>
+For static imports (as required):
 <br />
 <br />
 <pre>
