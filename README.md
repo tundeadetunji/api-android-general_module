@@ -1,4 +1,4 @@
-# General Module
+# Code Repertoire
 A project containing handy functions for daily use.
 
 <br />
