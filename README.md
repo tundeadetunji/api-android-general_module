@@ -1,4 +1,4 @@
-# api-android-general_module
+# Code Repertoire
 A project containing handy functions for daily use.
 
 <br />
@@ -19,10 +19,10 @@ Then add the dependency:
 
 ```html
 dependencies {
-	implementation 'com.github.tundeadetunji:api-android-general_module:2.2.4'
+	implementation 'com.github.tundeadetunji:api-android-general_module:TAG'
 }
 ```
-
+Where TAG is the latest VCS release.
 
 <br />
 For static imports (as required):
@@ -31,7 +31,6 @@ For static imports (as required):
 <pre>
 import static com.inovationware.generalmodule.General.*;
 import static com.inovationware.generalmodule.Device.*;
-import static com.inovationware.generalmodule.Multimedia.*;
 </pre>
 
 To check if the device is connected to internet, for example:
