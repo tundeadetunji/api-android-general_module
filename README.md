@@ -56,4 +56,4 @@ For more, please check individual documentation, or the <a href="https://tundead
 
 <br />
 <br />
-For the Java version of this project, see <a href="https://github.com/tundeadetunji/api-java-code" target="_blank">here</a>.
+For the Java version of the project, see <a href="https://github.com/tundeadetunji/api-java-code" target="_blank">here</a>.
