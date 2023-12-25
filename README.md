@@ -50,8 +50,6 @@ feedback.toast("toast message");
 ```
 
 
-There's a lot of WIP, but it's only expanding, and will also tend toward optimization in future releases.
-
 For more, please check individual documentation, or the <a href="https://tundeadetunji.github.io/api-android-general_module/" target="_blank">main documentation site</a>.
 
 <br />
