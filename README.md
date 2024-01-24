@@ -1,5 +1,5 @@
 # Code Repertoire
-A project containing handy functions for daily use.
+A programmer's toolkit - contains handy functions for daily use.
 
 <br />
 
