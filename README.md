@@ -1,5 +1,5 @@
 # Code Repertoire
-A project containing handy functions for daily use.
+A programmer's toolkit - contains handy functions for daily use.
 
 <br />
 
@@ -50,6 +50,8 @@ feedback.toast("toast message");
 ```
 
 
-There's a lot of WIP, but it's only expanding, and will also tend toward optimization in future releases.
+For more, please check individual documentation, or the <a href="https://tundeadetunji.github.io/api-android-general_module/" target="_blank">main documentation site</a>.
 
-For more, please check individual documentation.
+<br />
+<br />
+For the Java version of the project, see <a href="https://github.com/tundeadetunji/api-java-code" target="_blank">here</a>.
