@@ -39,6 +39,14 @@ public class Device {
         return clipboardText;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    public static void setTextToClipboard(Context context, String text_to_copy) {clipboardSetText(context, text_to_copy);
+    }
+
+    public static String getTextFromClipboard(Context context) {
+        return clipboardGetText(context);
+    }
+
     public static boolean thereIsInternet(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(context.CONNECTIVITY_SERVICE);
 
