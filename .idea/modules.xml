@@ -4,7 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GeneralModuleApplication.iml" filepath="$PROJECT_DIR$/.idea/modules/GeneralModuleApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.iml" filepath="$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.main.iml" filepath="$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/GeneralModule/GeneralModuleApplication.GeneralModule.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeneralModuleApplication.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jtds-1.3.1/GeneralModuleApplication.jtds-1.3.1.iml" filepath="$PROJECT_DIR$/.idea/modules/jtds-1.3.1/GeneralModuleApplication.jtds-1.3.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mssql-jdbc-10.2.0.jre11/GeneralModuleApplication.mssql-jdbc-10.2.0.jre11.iml" filepath="$PROJECT_DIR$/.idea/modules/mssql-jdbc-10.2.0.jre11/GeneralModuleApplication.mssql-jdbc-10.2.0.jre11.iml" />
     </modules>
