@@ -18,11 +18,13 @@ public class Network {
     private final TextView view;
     private final String url;
 
+    private final String user_agent_string;
 
-    public Network(String url, Activity activity, TextView showResultHere) {
+    public Network(String url, Activity activity, TextView showResultHere, String userAgentString) {
         this.activity = activity;
         this.view = showResultHere;
         this.url = url;
+        this.user_agent_string = userAgentString;
     }
 
     public void readResource(){
@@ -35,6 +37,7 @@ public class Network {
                     u = new URL(path);
                     HttpURLConnection c = (HttpURLConnection) u.openConnection();
                     c.setRequestMethod("GET");
+                    c.setRequestProperty("User-Agent", user_agent_string);
                     c.connect();
                     InputStream in = c.getInputStream();
                     final ByteArrayOutputStream bo = new ByteArrayOutputStream();
