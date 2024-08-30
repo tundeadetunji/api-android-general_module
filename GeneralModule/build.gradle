@@ -4,6 +4,9 @@ plugins {
     id 'signing'
 }
 
+group = 'com.inovationware.generalmodule'
+version = '3.2.5'
+
 android {
 
     compileSdkVersion 34
@@ -30,6 +33,17 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+publishing {
+    publications {
+        aar(MavenPublication) {
+            groupId = group
+            artifactId = 'mylibrary'
+            version = version
+            artifact file('build/outputs/aar/mylibrary-debug.aar')
+        }
     }
 }
 
