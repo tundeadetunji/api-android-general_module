@@ -4,8 +4,8 @@ plugins {
     id 'signing'
 }
 
-group = 'com.inovationware.generalmodule'
-version = '3.2.5'
+group = 'com.github.tundeadetunji'
+version = '3.2.6'
 
 android {
 
@@ -40,7 +40,7 @@ publishing {
     publications {
         aar(MavenPublication) {
             groupId = group
-            artifactId = 'mylibrary'
+            artifactId = 'generalmodule'
             version = version
             artifact file('build/outputs/aar/mylibrary-debug.aar')
         }
