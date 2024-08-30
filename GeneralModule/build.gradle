@@ -5,7 +5,8 @@ plugins {
 }
 
 group = 'com.github.tundeadetunji'
-version = '3.2.6'
+version = '3.2.7'
+//artifact = "api-android-general_module"
 
 android {
 

@@ -12,3 +12,7 @@ dependencyResolutionManagement {
         maven { url 'https://jitpack.io' }
     }
 }
+/*
+dependencies {
+    implementation 'com.github.tundeadetunji:api-android-general_module:3.2.7'
+}*/

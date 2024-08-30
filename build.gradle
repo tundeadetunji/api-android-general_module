@@ -18,6 +18,7 @@ buildscript {
 group = "io.github.tundeadetunji.android"
 //archivesBaseName = "programmer-toolkit"
 version = "1.4.7"
+//artifact = "api-android-general_module"
 
 /*
 allprojects {
