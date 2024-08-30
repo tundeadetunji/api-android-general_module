@@ -1,4 +1,4 @@
-package com.inovationware.generalmodule;
+package io.github.tundeadetunji.android;
 
 import java.io.IOException;
 import java.util.List;
@@ -23,6 +23,14 @@ public final class Json {
 
     public static <T> List<T> asList(String jsonArray, Class<T> type) throws IOException {
         return mapper.readValue(jsonArray, new TypeReference<List<T>>(){});
+    }
+
+    /*public static <T> List<T> asList(String jsonArray, TypeReference<T> reference) throws IOException {
+        return mapper.readValue(jsonArray, reference);
+    }*/
+
+    public static <T> List<T> asList(String jsonArray, TypeReference<List<T>> reference) throws IOException {
+        return mapper.readValue(jsonArray, reference);
     }
 
     public static <K, V> Map<K, V> asMap(String jsonObject, Class<K> K, Class<V> V) throws IOException {

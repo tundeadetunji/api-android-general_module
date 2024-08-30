@@ -4,7 +4,9 @@ buildscript {
         google()
         jcenter()
         mavenCentral()
+
     }
+
     dependencies {
         //classpath 'com.android.tools.build:gradle:8.6'
         classpath 'com.android.tools.build:gradle:8.4.0'
@@ -13,6 +15,9 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+group = "io.github.tundeadetunji.android"
+//archivesBaseName = "programmer-toolkit"
+version = "1.4.7"
 
 /*
 allprojects {
@@ -28,3 +33,97 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+tasks.register('signing') {
+    sign configurations.archives
+}
+
+tasks.register('uploadArchives') {
+    repositories {
+        maven {
+            url 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'
+            credentials {
+                username = project.properties['vJ0xb4T+']
+                password = project.properties['WeepwSdp6/y5ZV/OFfszuasxaJ7873Ay5HpqPAEewvhK']
+            }
+            pom.project {
+                name 'Code Repertoire (Android-Java)'
+                packaging 'jar'
+                // optionally artifactId can be defined here
+                description 'Programmer Toolkit'
+                url 'https://github.com/tundeadetunji/api-android-general_module'
+
+                scm {
+                    connection 'scm:svn:http://foo.googlecode.com/svn/trunk/'
+                    developerConnection 'scm:svn:https://foo.googlecode.com/svn/trunk/'
+                    url 'http://foo.googlecode.com/svn/trunk/'
+                }
+
+                licenses {
+                    license {
+                        name 'MIT License'
+                        url 'https://github.com/tundeadetunji/api-android-general_module/tree/master?tab=MIT-1-ov-file'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id 'tundeadetunji2017'
+                        name 'Tunde Adetunji'
+                        email 'tundeadetunji2017@gmail.com'
+                    }
+                }
+            }
+        }
+    }
+    // Configure the signing here
+    signing {
+        sign configurations.archives
+    }
+}
+
+/*
+tasks.register('uploadArchives') {
+    repositories {
+        mavenDeployer {
+            beforeDeployment { MavenDeployment deployment -> signing.signPom(deployment) }
+
+            repository(url: "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/") {
+                authentication(userName: "vJ0xb4T+", password: "WeepwSdp6/y5ZV/OFfszuasxaJ7873Ay5HpqPAEewvhK")
+            }
+
+            snapshotRepository(url: "https://s01.oss.sonatype.org/content/repositories/snapshots/") {
+                authentication(userName: "vJ0xb4T+", password: "WeepwSdp6/y5ZV/OFfszuasxaJ7873Ay5HpqPAEewvhK")
+            }
+
+            pom.project {
+                name 'Code Repertoire (Android-Java)'
+                packaging 'jar'
+                // optionally artifactId can be defined here
+                description 'Programmer Toolkit'
+                url 'https://github.com/tundeadetunji/api-android-general_module'
+
+                scm {
+                    connection 'scm:svn:http://foo.googlecode.com/svn/trunk/'
+                    developerConnection 'scm:svn:https://foo.googlecode.com/svn/trunk/'
+                    url 'http://foo.googlecode.com/svn/trunk/'
+                }
+
+                licenses {
+                    license {
+                        name 'MIT License'
+                        url 'https://github.com/tundeadetunji/api-android-general_module/tree/master?tab=MIT-1-ov-file'
+                    }
+                }
+
+                developers {
+                    developer {
+                        id 'tundeadetunji2017'
+                        name 'Tunde Adetunji'
+                        email 'tundeadetunji2017@gmail.com'
+                    }
+                }
+            }
+        }
+    }
+}*/

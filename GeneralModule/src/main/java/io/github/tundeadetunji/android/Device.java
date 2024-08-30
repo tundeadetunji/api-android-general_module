@@ -1,4 +1,4 @@
-package com.inovationware.generalmodule;
+package io.github.tundeadetunji.android;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;

@@ -29,8 +29,8 @@ For static imports (as required):
 <br />
 <br />
 <pre>
-import static com.inovationware.generalmodule.General.*;
-import static com.inovationware.generalmodule.Device.*;
+import static io.github.tundeadetunji.android.General.*;
+import static io.github.tundeadetunji.android.Device.*;
 </pre>
 
 To check if the device is connected to internet, for example:
@@ -40,7 +40,7 @@ boolean isConnectedToInternet = thereIsInternet(getApplicationContext());
 
 <h3>For non static imports:</h3>
 <pre>
-import com.inovationware.generalmodule.Feedback;
+import io.github.tundeadetunji.android.Feedback;
 </pre>
 
 To issue a toast, for example:
