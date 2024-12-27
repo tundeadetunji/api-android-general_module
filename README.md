@@ -49,9 +49,6 @@ private Feedback feedback = new Feedback(getApplicationContext());
 feedback.toast("toast message");
 ```
 
-
-For more, please check individual documentation, or the <a href="https://tundeadetunji.github.io/api-android-general_module/" target="_blank">main documentation site</a>.
-
 <br />
 <br />
 For the Java version of the project, see <a href="https://github.com/tundeadetunji/api-java-code" target="_blank">here</a>.
